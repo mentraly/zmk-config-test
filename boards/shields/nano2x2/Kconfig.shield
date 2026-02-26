@@ -1,0 +1,2 @@
+config SHIELD_NANO2X2
+    def_bool $(shields_list_contains,nano2x2)

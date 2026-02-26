@@ -1,0 +1,6 @@
+if SHIELD_NANO2X2
+
+config ZMK_KEYBOARD_NAME
+    default "Nano2x2"
+
+endif
