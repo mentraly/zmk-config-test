@@ -2,13 +2,23 @@
 #include <dt-bindings/zmk/keys.h>
 
 / {
+    combos {
+        compatible = "zmk,combos";
+
+        combo_studio_unlock {
+            timeout-ms = <100>;
+            key-positions = <3 4 5>;
+            bindings = <&studio_unlock>;
+        };
+    };
+
     keymap {
         compatible = "zmk,keymap";
 
         default_layer {
             bindings = <
-                &kp Q &kp W
-                &kp A &studio_unlock
+                &kp Q &kp W &kp E
+                &kp A &kp S &kp D
             >;
         };
     };
