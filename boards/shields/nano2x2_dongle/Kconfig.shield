@@ -1,0 +1,2 @@
+config SHIELD_NANO2X2_DONGLE
+    def_bool $(shields_list_contains,nano2x2_dongle)
