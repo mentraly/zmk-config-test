@@ -21,8 +21,6 @@
 include:
   - board: nice_nano//zmk
     shield: nano2x2_dongle
-    snippet: studio-rpc-usb-uart
-    cmake-args: -DCONFIG_ZMK_STUDIO=y
     artifact-name: nano2x2_dongle
   - board: nice_nano//zmk
     shield: nano2x2
