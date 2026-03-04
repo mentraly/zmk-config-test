@@ -1,6 +1,6 @@
 file_format: "1"
 id: nano2x2_dongle
-name: Nano2x2 Dongle
+name: OSU Ortho Dongle
 type: shield
 url: https://example.com
 requires: [pro_micro]

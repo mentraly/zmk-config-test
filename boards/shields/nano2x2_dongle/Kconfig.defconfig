@@ -1,7 +1,7 @@
 if SHIELD_NANO2X2_DONGLE
 
 config ZMK_KEYBOARD_NAME
-    default "Nano2x2 Dongle"
+    default "OSU Ortho Dongle"
 
 config ZMK_SPLIT
     default y
